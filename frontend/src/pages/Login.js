@@ -33,7 +33,7 @@ function Login() {
         }
 
         try {
-            const url='https://auth-mern-app1-api.vercel.app/auth/login'
+            const url='https://deploy-mern-app2-api1.vercel.app/auth/login'
             const response=await fetch(url,{
                 method:"POST",
                 headers:{
